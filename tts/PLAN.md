@@ -94,9 +94,15 @@ mit dem neuen Modell.
   wartet 21 s zwischen Requests
   (3 RPM), stoppt sauber bei 429 (Tageslimit) und loggt unten ins
   Aktivitäts-Log.
-- **Automatisiert:** Geplante Aufgabe `tts-daily-batch-incremental-adventure`
-  (Claude-Desktop, täglich ~22:00 Uhr) führt den Batch aus, pflegt diese Datei
-  und pusht. Läuft nur, wenn die App offen ist — sonst beim nächsten App-Start.
+- **Automatisierung beendet (13.09.2026):** Die geplante Aufgabe
+  `tts-daily-batch-incremental-adventure` (Claude-Desktop, täglich ~22:00 Uhr)
+  ist gelöscht — seit 10.09.2026 stand der Plan bei 404/404, `progress.failed`
+  leer, und seit der letzten Extraktion (26.08.2026) hat sich in `script/`
+  nichts geändert. Die Nachtläufe fanden nur noch nichts zu tun.
+  **Kommen neue Spieltexte dazu:** `node tts/extract-manifest.js`, danach den
+  Nachtlauf-Befehl unten von Hand (je Tag höchstens einmal, Quota 10 Requests)
+  oder die Aufgabe neu anlegen; der alte Prompt liegt noch unter
+  `~/.claude/scheduled-tasks/tts-daily-batch-incremental-adventure/SKILL.md`.
 - **Aufruf des Nachtlaufs im Bash-Werkzeug (29.08.2026 belegt):** `node` steht
   dort nicht im PATH, `node tts/nightly.js --push` scheitert mit Exit 127
   („command not found"). Der Lauf bleibt trotzdem **ein** Befehl — statt eines
