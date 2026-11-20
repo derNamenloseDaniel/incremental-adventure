@@ -2,7 +2,7 @@
 
 Ein textbasiertes Incremental-RPG im Browser — kein Download, kein Login.
 
-**[▶ Jetzt spielen](https://danielzaiser91.github.io/incremental-adventure/)**
+**[▶ Jetzt spielen](https://dernamenlosedaniel.github.io/incremental-adventure/)**
 
 ---
 

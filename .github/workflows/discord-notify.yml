@@ -35,7 +35,7 @@ jobs:
         run: |
           EXPECTED=$(jq -r '.version' version.json)
           echo "Erwartete Version: $EXPECTED"
-          URL="https://danielzaiser91.github.io/incremental-adventure/version.json"
+          URL="https://dernamenlosedaniel.github.io/incremental-adventure/version.json"
           for i in $(seq 1 20); do
             LIVE=$(curl -sf "$URL" | jq -r '.version // empty' 2>/dev/null || echo "")
             echo "Versuch $i: Live=$LIVE"

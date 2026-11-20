@@ -17,6 +17,6 @@
 - Balancing: Velmark-Preise korrigiert (Essen 200–900g, Schlaf 300–800g, Rüstung 6.000g)
 - Eichhörnchen-Bonus (+Rohstoffe) wurde nie angewendet — behoben
 
-📋 Changelog: <https://github.com/danielzaiser91/incremental-adventure/blob/main/CHANGELOG.md>
+📋 Changelog: <https://github.com/derNamenloseDaniel/incremental-adventure/blob/main/CHANGELOG.md>
 
-🔗 https://danielzaiser91.github.io/incremental-adventure/
+🔗 https://dernamenlosedaniel.github.io/incremental-adventure/
