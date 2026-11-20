@@ -109,7 +109,7 @@ function commitAndPush(stand) {
     fs.writeFileSync(askpass, [
       '@echo off',
       'echo %~1 | findstr /I "sername" >nul',
-      'if %errorlevel%==0 (echo danielzaiser91) else (gh auth token)',
+      'if %errorlevel%==0 (echo derNamenloseDaniel) else (gh auth token)',
       ''
     ].join('\r\n'));
     p = run(GIT, ['-c', 'credential.helper=', 'push', 'origin', 'main'],

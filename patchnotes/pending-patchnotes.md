@@ -6,4 +6,4 @@
 • Die Wiedergabe startet nur auf Klick — wer lieber still liest, merkt keinen Unterschied
 • Der letzte Button einer Dialog-Serie heißt jetzt „Schließen" statt „Weiter" (aus v0.22.10)
 
-🔗 https://danielzaiser91.github.io/incremental-adventure/
+🔗 https://dernamenlosedaniel.github.io/incremental-adventure/
